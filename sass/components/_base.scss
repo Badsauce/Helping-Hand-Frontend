@@ -1,0 +1,16 @@
+body {
+  background-color: $background;
+  color: $textColor;
+}
+
+a {
+  color: $link;
+
+  &:visited {
+    color: $visitedLink;
+  }
+}
+
+section {
+  max-width: 960px;
+}
