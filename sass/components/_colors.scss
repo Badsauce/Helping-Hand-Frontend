@@ -5,10 +5,16 @@ $sunlight: #EFDA51;
 $steel: #cccac6;
 $overcastSky: #96d0d8;
 
-$background: $mustard;
-$navbar: $seaWater;
+$screen: rgba(0,0,0,.3);
+
+$nephritis: #27ae60;
+$mossySteel: #BDD2C7;
+$blackMoss: #01160F;
+
+$background: $nephritis;
+$navbar: $mossySteel;
 $darkAccent: $sunlight;
-$textColor: $icy;
+$textColor: $blackMoss;
 $textColorAlt: $seaWater;
 $visitedLink: $steel;
 $link: $overcastSky;

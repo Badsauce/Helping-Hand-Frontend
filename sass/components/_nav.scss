@@ -3,18 +3,44 @@ header {
   height: 15vh;
   min-height: 100px;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   padding: .5em;
   border-bottom: 1px solid rgba(1, 2, 3, .5);
+}
 
-  @media (min-width: 800px) {
-    justify-content: flex-start;
-  }
+h1 {
+  font-size: 600%;
+}
+
+.banner {
+  width: 40%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+
+h2 {
+  padding: 1vh;
+  font-size: 250%;
+  background-color: $screen;
+}
+
+.right-tri {
+  width: 0;
+  height: 0;
+  border-top: 60px solid $screen;
+  border-right: 60px solid transparent;
+}
+
+.left-tri {
+  width: 0;
+  height: 0;
+  border-top: 60px solid $screen;
+  border-left: 60px solid transparent;
 }
 
 .logo {
-  border-radius: 50%;
   width: 14vh;
   height: 14vh;
 

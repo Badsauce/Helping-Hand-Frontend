@@ -1,24 +1,8 @@
-.fonts {
-  margin: auto;
-  margin-top: 5vh;
-
-  article {
-    background-color: $darkAccent;
-    padding-bottom: 1em;
-    border-bottom: 1px solid rgba(1, 2, 3, .5);
-  }
-
-  h2 {
-    display: inline-block;
-    background-color: $navbar;
-    font-size: 150%;
-    padding: .25em;
-  }
-
-  p {
-    font-size: 125%;
-    padding: .1em .5em;
-    color: $textColorAlt;
-  }
-
+@font-face {
+  font-family: 'ComicNeue';
+  src: url('fonts/ComicNeue-Regular.eot'); /* IE9 Compat Modes */
+  src: url('fonts/ComicNeue-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('fonts/ComicNeue-Regular.woff2') format('woff2'), /* Super Modern Browsers */
+  url('fonts/ComicNeue-Regular.woff') format('woff'), /* Pretty Modern Browsers */
+  url('fonts/ComicNeue-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */
 }
