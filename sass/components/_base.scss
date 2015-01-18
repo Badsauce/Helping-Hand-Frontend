@@ -6,10 +6,6 @@ body {
 
 a {
   color: $link;
-
-  &:visited {
-    color: $visitedLink;
-  }
 }
 
 .form-wrap {
