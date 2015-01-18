@@ -107,15 +107,14 @@ header {
   justify-content: center;
   align-items: center;
   padding: .5em;
-  border-bottom: 1px solid rgba(1, 2, 3, 0.5);
 }
 
-/* line 12, ../sass/components/_nav.scss */
+/* line 11, ../sass/components/_nav.scss */
 h1 {
   font-size: 600%;
 }
 
-/* line 16, ../sass/components/_nav.scss */
+/* line 15, ../sass/components/_nav.scss */
 .banner {
   width: 40%;
   margin: auto;
@@ -123,7 +122,7 @@ h1 {
   justify-content: center;
 }
 
-/* line 23, ../sass/components/_nav.scss */
+/* line 22, ../sass/components/_nav.scss */
 h2 {
   padding: 1vh;
   font-size: 250%;
@@ -131,7 +130,7 @@ h2 {
   color: #F4FCE8;
 }
 
-/* line 30, ../sass/components/_nav.scss */
+/* line 29, ../sass/components/_nav.scss */
 .right-tri {
   width: 0;
   height: 0;
@@ -139,7 +138,7 @@ h2 {
   border-right: 60px solid transparent;
 }
 
-/* line 37, ../sass/components/_nav.scss */
+/* line 36, ../sass/components/_nav.scss */
 .left-tri {
   width: 0;
   height: 0;
@@ -147,14 +146,14 @@ h2 {
   border-left: 60px solid transparent;
 }
 
-/* line 44, ../sass/components/_nav.scss */
+/* line 43, ../sass/components/_nav.scss */
 .logo {
   width: 14vh;
   height: 14vh;
   margin: 1vh;
 }
 
-/* line 50, ../sass/components/_nav.scss */
+/* line 49, ../sass/components/_nav.scss */
 .price-tiers {
   position: relative;
   width: 55%;
@@ -163,18 +162,18 @@ h2 {
   margin: 10vh auto;
 }
 
-/* line 58, ../sass/components/_nav.scss */
+/* line 57, ../sass/components/_nav.scss */
 .tier-container {
   position: relative;
 }
 
-/* line 62, ../sass/components/_nav.scss */
+/* line 61, ../sass/components/_nav.scss */
 .tier {
   width: 30vh;
   height: 30vh;
 }
 
-/* line 67, ../sass/components/_nav.scss */
+/* line 66, ../sass/components/_nav.scss */
 h3 {
   text-decoration: underline;
   text-align: center;
@@ -182,7 +181,7 @@ h3 {
   font-size: 200%;
 }
 
-/* line 74, ../sass/components/_nav.scss */
+/* line 73, ../sass/components/_nav.scss */
 .price-container {
   position: absolute;
   bottom: 0;
@@ -198,16 +197,27 @@ h3 {
   font-weight: bold;
 }
 
-/* line 89, ../sass/components/_nav.scss */
+/* line 88, ../sass/components/_nav.scss */
 .enroll {
   background-color: #BDD2C7;
-  height: 20vh;
+  height: 21vh;
   min-height: 100px;
   display: flex;
   justify-content: center;
   align-items: center;
   padding: .5em;
-  border-bottom: 1px solid rgba(1, 2, 3, 0.5);
+}
+
+/* line 98, ../sass/components/_nav.scss */
+.join-button {
+  background-color: #27ae60;
+  text-decoration: none;
+  padding: 1vh;
+  color: #01160F;
+  min-width: 310px;
+  margin: 3vh;
+  font-size: 250%;
+  text-align: center;
 }
 
 /* line 1, ../sass/components/_app.scss */

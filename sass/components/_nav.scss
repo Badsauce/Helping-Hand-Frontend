@@ -6,7 +6,6 @@ header {
   justify-content: center;
   align-items: center;
   padding: .5em;
-  border-bottom: 1px solid rgba(1, 2, 3, .5);
 }
 
 h1 {
@@ -88,11 +87,21 @@ h3 {
 
 .enroll {
   background-color: $navbar;
-  height: 20vh;
+  height: 21vh;
   min-height: 100px;
   display: flex;
   justify-content: center;
   align-items: center;
   padding: .5em;
-  border-bottom: 1px solid rgba(1, 2, 3, .5);
+}
+
+.join-button {
+  background-color: $nephritis;
+  text-decoration: none;
+  padding: 1vh;
+  color: $blackMoss;
+  min-width: 310px;
+  margin: 3vh;
+  font-size: 250%;
+  text-align: center;
 }
