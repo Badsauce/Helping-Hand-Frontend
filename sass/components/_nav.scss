@@ -24,6 +24,7 @@ h2 {
   padding: 1vh;
   font-size: 250%;
   background-color: $screen;
+  color: $textColorSecondary;
 }
 
 .right-tri {
@@ -43,65 +44,55 @@ h2 {
 .logo {
   width: 14vh;
   height: 14vh;
-
-  @media (min-width: 800px) {
-    margin: 0 1em;
-  }
+  margin: 1vh;
 }
 
-.desktop {
-  display: none;
-
-  li {
-    display: inline-block;
-    border: 1px solid $darkAccent;
-    border-radius: .2em;
-    font-size: 150%;
-    padding: .5em;
-    margin-right: 1em;
-    transition: background-color .5s;
-
-    &:hover {
-      background: #DEB73D;
-    }
-  }
-
-  @media (min-width: 800px) {
-    display: block
-  }
+.price-tiers {
+  position: relative;
+  width: 55%;
+  display: flex;
+  justify-content: space-between;
+  margin: 10vh auto;
 }
 
-.mobile {
-  display: block;
-
-  @media (min-width: 800px) {
-    display: none;
-  }
-
-  button {
-    width: 1.7em;
-    height: 1.7em;
-    border: 1px solid $darkAccent;
-    border-radius: .2em;
-    appearance: none;
-    background: none;
-    text-decoration:none;
-    font-size: 300%;
-    color: $darkAccent;
-  }
+.tier-container {
+  position: relative;
 }
 
-.mobile-menu {
-  display: none;
+.tier {
+  width: 30vh;
+  height: 30vh;
+}
 
-  li {
-    color: $darkAccent;
-    background-color: $navbar;
-    height: 10vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 200%;
-    border-bottom: 1px solid rgba(1, 2, 3, .5);
-  }
+h3 {
+  text-decoration: underline;
+  text-align: center;
+  padding-bottom: 1vh;
+  font-size: 200%;
+}
+
+.price-container{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  height: 5em;
+  width: 5em;
+  background-image: url(../img/starburst.svg);
+  background-size: 5em;
+  font-weight: bold;
+}
+
+.enroll {
+  background-color: $navbar;
+  height: 20vh;
+  min-height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: .5em;
+  border-bottom: 1px solid rgba(1, 2, 3, .5);
 }
