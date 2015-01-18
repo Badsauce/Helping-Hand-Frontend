@@ -11,3 +11,37 @@ a {
     color: $visitedLink;
   }
 }
+
+.form-wrap {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+#formAddUser {
+  margin: auto;
+  width: 20%;
+  background-color: #BDD2C7;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 3vh;
+
+  input {
+    margin: 1vh;
+  }
+
+  #btnSubmit {
+    font-size: 150%;
+    -webkit-appearance:none;
+    background-color: $nephritis;
+    text-decoration: none;
+    padding: 1vh;
+    color: $blackMoss;
+    min-width: 310px;
+    margin: 3vh;
+    text-align: center;
+  }
+}
